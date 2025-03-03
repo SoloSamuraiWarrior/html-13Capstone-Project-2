@@ -1,0 +1,103 @@
+* {
+  margin: 0%;
+  text-align: center;
+}
+.sacramento-regular {
+  font-family: 'Sacramento', cursive;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 5rem;
+}
+.hero {
+  position: relative;
+  background-color: azure;
+  color: rgb(118, 187, 187);
+}
+h2,
+h3 {
+  font-size: xx-large;
+  color: rgb(118, 187, 187);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.cloud {
+  width: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.top.cloud {
+  position: relative;
+  left: 30%;
+}
+.bottom.cloud {
+  position: absolute;
+  left: 20%;
+  top: 50%;
+}
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.resume > p {
+  width: 450px;
+  display: inline-block;
+}
+
+hr {
+  border: 2px solid black;
+  border-style: dashed;
+  width: 80px;
+  display: inline-block;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  justify-content: center;
+}
+.outer-box * {
+  text-align: left;
+}
+h3 {
+  font-size: x-large;
+  color: rgb(118, 187, 187);
+}
+.outer-box {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 20px;
+  justify-content: end;
+  width: 50%;
+  margin: 100px auto 0 auto;
+}
+.touch {
+  margin-bottom: 50px;
+}
+.touch > p {
+  width: 450px;
+  display: inline-block;
+}
+
+.button {
+  margin: 40px auto;
+}
+.button > p {
+  display: inline;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background-color: rgb(82, 214, 181);
+  border-radius: 5px;
+}
+.footer {
+  margin: 100px auto 0px auto;
+  padding: 50px;
+  background-color: #66bfbf;
+}
+.footer > p {
+  margin: 30px auto;
+}
+.footer > a {
+  margin: 10px 20px;
+}
